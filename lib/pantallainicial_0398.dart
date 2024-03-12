@@ -7,7 +7,7 @@ class PantallaInicial0398 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Pantalla Inicial Rivas 0398"),
+        title: const Text("Card Container Rivas0398"),
         backgroundColor: Colors.purple,
       ),
       body: Center(
