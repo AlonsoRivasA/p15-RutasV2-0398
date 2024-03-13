@@ -18,14 +18,32 @@ class PantallaInicial0398 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla1_0398");
               },
+              style: ElevatedButton.styleFrom(
+                primary: Color(0xfff321bf),
+                textStyle: TextStyle(fontSize: 20),
+              ),
               child: const Text("Ir a la Pantalla 1"),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla2_0398");
               },
+              style: ElevatedButton.styleFrom(
+                primary: Color(0xfff10505),
+                textStyle: TextStyle(fontSize: 20),
+              ),
               child: const Text("Ir a la Pantalla 2"),
-            )
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/Pantalla3_0398");
+              },
+              style: ElevatedButton.styleFrom(
+                primary: Color(0xff413ee7),
+                textStyle: TextStyle(fontSize: 22),
+              ),
+              child: const Text("Ir a la Pantalla 3"),
+            ),
           ],
         ),
       ),
